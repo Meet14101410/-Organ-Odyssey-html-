@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Organ Odyssey</title>
+</head>
+<body>
+    <h1>🫀 Organ Odyssey</h1>
+    <p>Guess the organ!</p>
+
+    <button onclick="check()">Heart</button>
+    <button>Liver</button>
+    <button>Kidney</button>
+
+    <p id="result"></p>
+
+    <script>
+        function check() {
+            document.getElementById("result").innerHTML =
+                "Correct! ❤️ Heart pumps blood.";
+        }
+    </script>
+</body>
+</html>
