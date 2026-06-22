@@ -1,0 +1,4 @@
+function check() {
+    document.getElementById("result").textContent =
+        "Correct! ❤️ The Heart pumps blood throughout the body.";
+}
